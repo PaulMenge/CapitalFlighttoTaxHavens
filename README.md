@@ -1,4 +1,4 @@
-# Seminar Work on Capital Flight following the Arab Spring and Its Destinations
+# Seminar Work on Capital Flight following the Arab Spring and its Destinations
 
 ## Overview
 
@@ -31,8 +31,6 @@ This project investigates the dynamics of **capital flight around the Arab Sprin
 │       ├── plotting.py
 │       └── helpers.py
 ├── Data/
-│   ├── raw/               # Unmodified datasets (not tracked if large/privileged; consider Git LFS)
-│   ├── interim/           # Intermediate files (outputs of cleaning)
 │   └── processed/         # Analysis-ready datasets
 ├── Plots/
 │   ├── figures/           # Final figures used in the write-up
@@ -43,16 +41,29 @@ This project investigates the dynamics of **capital flight around the Arab Sprin
 ├── README.md              # You are here
 └── LICENSE                # Chosen license (TBD)
 
-Data Catalog
+### Folder Purpose & Conventions
+
+* **Code/**: R scripts implementing event studies (DID/DDD), robustness checks, and figure generation/export.
+
+  * Current scripts:
+
+    * `BigEventStudycountry-block bootstrap CIs.R`
+    * `DDD_with_16+-qartals.R`
+    * `DDDnew.R`
+    * `EventStudyAll.R`
+    * `EventStudyforTH10.R`
+    * `newnewDDD.R`
+    * `newnewDDDnonEU.R`
+    * `non-EU-TH10.R`
+    * `non-EU.R`
+* **Plots/**: PNG outputs produced by the analysis (event-study figures, placebo tests, jackknife robustness, contributions, and window visualizations).
+
+*Data Catalog
 | File                          | Location  | Source/URL                                                               | Coverage                                                                      | Key Fields                                                                                                    | Notes                                                                                                             |
 | ----------------------------- | --------- | ------------------------------------------------------------------------ | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
-| bis_lbs_locational_202507.csv | Data/raw/ | Bank for International Settlements (BIS) – Locational Banking Statistics | Release as of Jul 2025; quarterly cross-border banking positions by residence | reporting_country, counterparty_country, quarter, position_type (assets/liabilities), currency, sector, value | **Single source for all code.** Downloaded/ingested Jul 2025; store unmodified in `Data/raw/` (consider Git LFS). |
+| BIS Locational Banking Statistic Links | Data/ | Bank for International Settlements (BIS) – Locational Banking Statistics | Release as of Jul 2025; quarterly cross-border banking positions by residence | reporting_country, counterparty_country, quarter, position_type (assets/liabilities), currency, sector, value | **Single source for all code.** Downloaded/ingested Jul 2025; store unmodified in `Data/raw/` (consider Git LFS). |
 
 ---
-
-File	Location	Source/URL	Coverage	Key Fields	Notes
-bis_lbs_locational_202507.csv	Data/raw/	Bank for International Settlements (BIS) – Locational Banking Statistics	Release as of Jul 2025; quarterly cross-border banking positions by residence	reporting_country, counterparty_country, quarter, position_type (assets/liabilities), currency, sector, value	Single source for all code. Downloaded/ingested Jul 2025; store unmodified in Data/raw/ (consider Git LFS).
-Methods (outline)
 
 ## Methods
 
@@ -61,3 +72,45 @@ Methods (outline)
 * **Destination identification:** mapping flows to receiving countries/centers.
 * **Empirical approach:** descriptive trends, difference-in-differences/event study, robustness.
 * **Sensitivity checks:** alternative metrics, alternative windows, country exclusions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+.
+├── Code/
+│   ├── BigEventStudycountry-block bootstrap CIs.R
+│   ├── DDD_with_16+-qartals.R
+│   ├── DDDnew.R
+│   ├── EventStudyAll.R
+│   ├── EventStudyforTH10.R
+│   ├── newnewDDD.R
+│   ├── newnewDDDnonEU.R
+│   ├── non-EU-TH10.R
+│   └── non-EU.R
+└── Plots/
+    ├── 10QES.png
+    ├── 10QESNonEU.png
+    ├── Contributions.png
+    ├── ContributionsNonEU.png
+    ├── Did2.png
+    ├── DidNonEU.png
+    ├── JackknifeNonEU.png
+    ├── JackknifeRobust.png
+    ├── PlaceboNonEU.png
+    ├── PlaceboShocks.png
+    ├── PreTrend.png
+    ├── ReContributions.png
+    ├── ReContributionsNonEU.png
+    ├── Window.png
+    └── WindowNonEU.png
+```
+
