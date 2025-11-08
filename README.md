@@ -14,22 +14,38 @@ This project investigates the dynamics of **capital flight around the Arab Sprin
 
 ```text
 .
+.
 ├── Code/
-│   ├── notebooks/
-│   │   ├── 01_data_overview.ipynb
-│   │   ├── 02_cleaning_and_harmonization.ipynb
-│   │   ├── 03_descriptive_trends.ipynb
-│   │   ├── 04_destination_mapping.ipynb
-│   │   └── 05_modeling_and_robustness.ipynb
-│   ├── scripts/
-│   │   ├── clean_data.py
-│   │   ├── build_features.py
-│   │   ├── analyze_capital_flight.py
-│   │   └── export_plots.py
-│   └── utils/
-│       ├── io.py
-│       ├── plotting.py
-│       └── helpers.py
+│ ├── BigEventStudycountry-block bootstrap CIs.R
+│ ├── DDD_with_16+-qartals.R
+│ ├── DDDnew.R
+│ ├── EventStudyAll.R
+│ ├── EventStudyforTH10.R
+│ ├── newnewDDD.R
+│ ├── newnewDDDnonEU.R
+│ ├── non-EU-TH10.R
+│ └── non-EU.R
+├── Plots/
+│ ├── 10QES.png
+│ ├── 10QESNonEU.png
+│ ├── Contributions.png
+│ ├── ContributionsNonEU.png
+│ ├── Did2.png
+│ ├── DidNonEU.png
+│ ├── JackknifeNonEU.png
+│ ├── JackknifeRobust.png
+│ ├── PlaceboNonEU.png
+│ ├── PlaceboShocks.png
+│ ├── PreTrend.png
+│ ├── ReContributions.png
+│ ├── ReContributionsNonEU.png
+│ ├── Window.png
+│ └── WindowNonEU.png
+├── .gitignore
+├── requirements.txt
+├── README.md
+└── LICENSE
+
 ├── Data/
 │   └── processed/         # Analysis-ready datasets
 ├── Plots/
