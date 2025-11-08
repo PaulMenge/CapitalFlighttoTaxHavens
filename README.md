@@ -68,7 +68,7 @@ This project investigates the dynamics of **capital flight around the Arab Sprin
 ## Methods
 
 * **Measurement of capital flight:** define metric(s) and construction logic.
-* **Event window:** pre-/post- periods surrounding specific Arab Spring milestones (to be specified).
+* **Event window:** pre-/post- periods surrounding specific Arab Spring timeline.
 * **Destination identification:** mapping flows to receiving countries/centers.
 * **Empirical approach:** descriptive trends, difference-in-differences/event study, robustness.
 * **Sensitivity checks:** alternative metrics, alternative windows, country exclusions.
