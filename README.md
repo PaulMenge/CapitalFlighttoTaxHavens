@@ -61,7 +61,7 @@ This project investigates the dynamics of **capital flight around the Arab Sprin
 *Data Catalog
 | File                          | Location  | Source/URL                                                               | Coverage                                                                      | Key Fields                                                                                                    | Notes                                                                                                             |
 | ----------------------------- | --------- | ------------------------------------------------------------------------ | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
-| BIS Locational Banking Statistic Links | Data/ | Bank for International Settlements (BIS) – Locational Banking Statistics | Release as of Jul 2025; quarterly cross-border banking positions by residence | reporting_country, counterparty_country, quarter, position_type (assets/liabilities), currency, sector, value | **Single source for all code.** Downloaded/ingested Jul 2025; store unmodified in `Data/raw/` (consider Git LFS). |
+| BIS Locational Banking Statistic Links | Data/ | Bank for International Settlements (BIS) – Locational Banking Statistics | Release as of Jul 2025; quarterly cross-border banking positions by residence | reporting_country, counterparty_country, quarter, position_type (assets/liabilities), currency (USD), value | **Single source for all code.** Downloaded/ingested Jul 2025;|
 
 ---
 
