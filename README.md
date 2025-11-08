@@ -41,19 +41,8 @@ This project investigates the dynamics of **capital flight around the Arab Sprin
 │ ├── ReContributionsNonEU.png
 │ ├── Window.png
 │ └── WindowNonEU.png
-├── .gitignore
-├── requirements.txt
-├── README.md
-└── LICENSE
-
 ├── Data/
 │   └── processed/         # Analysis-ready datasets
-├── Plots/
-│   ├── figures/           # Final figures used in the write-up
-│   ├── exploratory/       # Quick charts from EDA
-│   └── tables/            # LaTeX/CSV tables for paper/appendix
-├── .gitignore
-├── requirements.txt       # Python package requirements (to be finalized)
 ├── README.md              # You are here
 └── LICENSE                # Chosen license (TBD)
 
@@ -88,45 +77,3 @@ This project investigates the dynamics of **capital flight around the Arab Sprin
 * **Destination identification:** mapping flows to receiving countries/centers.
 * **Empirical approach:** descriptive trends, difference-in-differences/event study, robustness.
 * **Sensitivity checks:** alternative metrics, alternative windows, country exclusions.
-
-
-
-
-
-
-
-
-
-
-
-
-
-.
-├── Code/
-│   ├── BigEventStudycountry-block bootstrap CIs.R
-│   ├── DDD_with_16+-qartals.R
-│   ├── DDDnew.R
-│   ├── EventStudyAll.R
-│   ├── EventStudyforTH10.R
-│   ├── newnewDDD.R
-│   ├── newnewDDDnonEU.R
-│   ├── non-EU-TH10.R
-│   └── non-EU.R
-└── Plots/
-    ├── 10QES.png
-    ├── 10QESNonEU.png
-    ├── Contributions.png
-    ├── ContributionsNonEU.png
-    ├── Did2.png
-    ├── DidNonEU.png
-    ├── JackknifeNonEU.png
-    ├── JackknifeRobust.png
-    ├── PlaceboNonEU.png
-    ├── PlaceboShocks.png
-    ├── PreTrend.png
-    ├── ReContributions.png
-    ├── ReContributionsNonEU.png
-    ├── Window.png
-    └── WindowNonEU.png
-```
-
