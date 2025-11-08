@@ -1,10 +1,6 @@
 # Seminar Work on Capital Flight following the Arab Spring and its Destinations
 
-## Overview
-
 This project investigates the dynamics of **capital flight around the Arab Spring** and the **destinations** that received those outflows. It is organized with a clear separation between **Code**, **Data**, and **Plots**.
-
-**Goals**
 
 * Describe how capital flight evolved in the years surrounding the Arab Spring.
 * Identify primary destination countries, classified as financial centers and/or Tax Havens.
@@ -13,8 +9,6 @@ This project investigates the dynamics of **capital flight around the Arab Sprin
 ## Repository Structure
 
 ```text
-.
-.
 ├── Code/
 │ ├── BigEventStudycountry-block bootstrap CIs.R
 │ ├── DDD_with_16+-qartals.R
@@ -42,7 +36,7 @@ This project investigates the dynamics of **capital flight around the Arab Sprin
 │ ├── Window.png
 │ └── WindowNonEU.png
 ├── Data/
-│   └── processed/         # Analysis-ready datasets
+│   └── BIS Locational Banking Statistic Links.md
 ├── README.md              # You are here
 └── LICENSE                # Chosen license (TBD)
 
