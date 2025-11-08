@@ -4,7 +4,7 @@
 
 This project investigates the dynamics of **capital flight around the Arab Spring** and the **destinations** that received those outflows. It is organized with a clear separation between **Code**, **Data**, and **Plots**.
 
-**Initial goals (to refine together):**
+**Goals**
 
 * Describe how capital flight evolved in the years surrounding the Arab Spring.
 * Identify primary destination countries, classified as financial centers and/or Tax Havens.
@@ -43,13 +43,16 @@ This project investigates the dynamics of **capital flight around the Arab Sprin
 ├── README.md              # You are here
 └── LICENSE                # Chosen license (TBD)
 
-## Data Catalog (to be completed)
+Data Catalog
+| File                          | Location  | Source/URL                                                               | Coverage                                                                      | Key Fields                                                                                                    | Notes                                                                                                             |
+| ----------------------------- | --------- | ------------------------------------------------------------------------ | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| bis_lbs_locational_202507.csv | Data/raw/ | Bank for International Settlements (BIS) – Locational Banking Statistics | Release as of Jul 2025; quarterly cross-border banking positions by residence | reporting_country, counterparty_country, quarter, position_type (assets/liabilities), currency, sector, value | **Single source for all code.** Downloaded/ingested Jul 2025; store unmodified in `Data/raw/` (consider Git LFS). |
 
-Provide one row per dataset used.
+---
 
-| File | Location  | Source/URL | Coverage | Key Fields | Notes |
-| ---- | --------- | ---------- | -------- | ---------- | ----- |
-|      | Data/raw/ |            |          |            |       |
+File	Location	Source/URL	Coverage	Key Fields	Notes
+bis_lbs_locational_202507.csv	Data/raw/	Bank for International Settlements (BIS) – Locational Banking Statistics	Release as of Jul 2025; quarterly cross-border banking positions by residence	reporting_country, counterparty_country, quarter, position_type (assets/liabilities), currency, sector, value	Single source for all code. Downloaded/ingested Jul 2025; store unmodified in Data/raw/ (consider Git LFS).
+Methods (outline)
 
 ## Methods
 
