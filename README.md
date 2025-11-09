@@ -59,6 +59,7 @@ This project investigates the dynamics of **capital flight around the Arab Sprin
 * **Plots/**: PNG outputs produced by the analysis (event-study figures, placebo tests, jackknife robustness, contributions, and window visualizations).
 
 *Data Catalog
+Should be downloaded following the links in the Data folder and placed there.
 | File                          | Location  | Source/URL                                                               | Coverage                                                                      | Key Fields                                                                                                    | Notes                                                                                                             |
 | ----------------------------- | --------- | ------------------------------------------------------------------------ | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
 | BIS Locational Banking Statistic Links | Data/ | Bank for International Settlements (BIS) – Locational Banking Statistics | Release as of Jul 2025; quarterly cross-border banking positions by residence | reporting_country, counterparty_country, quarter, position_type (assets/liabilities), currency (USD), value | **Single source for all code.** Downloaded/ingested Jul 2025;|
