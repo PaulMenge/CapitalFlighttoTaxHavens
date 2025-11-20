@@ -1,4 +1,4 @@
-# Seminar Work on Capital Flight following the Arab Spring and its Destinations
+# Seminar Work on Capital Flight following the Arab Spring
 
 This project investigates the dynamics of **capital flight around the Arab Spring** and the **destinations** that received those outflows. It is organized with a clear separation between **Code**, **Data**, and **Plots**.
 
