@@ -37,8 +37,8 @@ This project investigates the dynamics of **capital flight around the Arab Sprin
 │ └── WindowNonEU.png
 ├── Data/
 │   └── BIS Locational Banking Statistic Links.md
-├── README.md              # You are here
-└── LICENSE                # Chosen license (TBD)
+├── README.md
+└── LICENSE                #(TBD)
 ```
 
 ### Folder Purpose & Conventions
